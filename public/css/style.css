@@ -1,0 +1,154 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+.site-logo {
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+}
+
+#site-header {
+    background-image: url("/images/food-on-marble-countertop.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#display-recipe,
+#display-saved-recipe,
+#saved-recipe {
+    overflow: scroll;
+
+}
+
+.actions {
+    cursor: pointer;
+}
+
+.recipe-link,
+.recipeLink, {
+    color: #3273dc !important;
+}
+.recipe-link:hover,
+.hero.is-light a:hover {
+    color: #363636;
+}
+
+#map {
+    height: 400px;
+}
+
+.ingredients-link {
+    color: #3273dc;
+}
+.ingredients-link:hover {
+    color: #363636;
+}
+
+#find-recipe {
+    width: 100%;
+}
+
+#mon-recipe,
+#tue-recipe,
+#wed-recipe,
+#thu-recipe,
+#fri-recipe,
+#sat-recipe,
+#sun-recipe {
+    width: 250px;
+}
+
+
+
+#mon-comment,
+#tue-comment,
+#wed-comment,
+#thu-comment,
+#fri-comment,
+#sat-comment,
+#sun-comment {
+    width: 250px;
+}
+
+.modal-card-title,
+.show-ingredients-title, {
+    word-wrap: break-word;
+}
+
+.ingredients-list-title {
+    font-weight: 700;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-image,
+.image.is-square img,
+.recipe-image {
+    width: 197.766px;
+    height: 197.766px;
+}
+
+.saved-recipes-card {
+    margin: 0.5em 0.5em;
+    padding: 0.5em 0.5em 0.5em;;
+}
+@media screen and (min-width: 769px) {
+    .hero.is-large .hero-body {
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .card-image,
+    .image.is-square img,
+    .recipe-image {
+        width: 197.766px;
+        height: 197.766px;
+    }
+
+    .modal-card-head {
+        font-size: 1.25em;
+    }
+
+    .modal-card {
+        width: 375px;
+    }
+}
+/* Bouton "Se déconnecter" dans la navbar */
+.logout-btn {
+    color: #fff; /* Couleur du texte */
+    background-color: #28a745; /* Couleur verte */
+    border: none;
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 8px 15px; /* Espacement interne */
+    text-decoration: none; /* Supprime le soulignement */
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Icones dans le bouton */
+.logout-btn .icon {
+    margin-right: 5px; /* Espacement entre l'icône et le texte */
+}
+
+/* Hover et clic pour le bouton */
+.logout-btn:hover {
+    background-color: #218838; /* Couleur verte légèrement plus foncée */
+    transform: translateY(-2px); /* Léger effet de levée */
+}
+
+.logout-btn:active {
+    background-color: #1e7e34; /* Couleur verte plus foncée */
+    transform: translateY(1px); /* Effet d'enfoncement */
+}
+
+
+
